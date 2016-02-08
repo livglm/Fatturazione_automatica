@@ -20,7 +20,7 @@
     #
     ##############################################################################
 
-    {
+{
         'name': 'Fatturazione_automatica',
         'version': '0.2',
         'category': 'Generic Modules/Others',
