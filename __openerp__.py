@@ -62,7 +62,7 @@ It is well suited for other E-Commerce connectors as well.
              'views/account_invoice_view.xml',
              'custom_report_picking.xml',
              'views/res_view.xml',
-             'security/ir.model.access.csv',
+             #'security/ir.model.access.csv',
             ],
     'installable': True,
 }
