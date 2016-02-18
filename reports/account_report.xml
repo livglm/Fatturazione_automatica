@@ -3,7 +3,7 @@
             model="account.invoice"
             string="Invoice without prices"
             report_type="qweb-pdf"
-            name="account.test_report"
+            name="fatturazione_automatica.reports.test_report"
             attachment_use="False"
-            file="account.report_without_prices"
+            file="fatturazione_automatica.reports.test_report"
         />
