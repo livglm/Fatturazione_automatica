@@ -9,7 +9,7 @@
 
                 <div class="page">
                     <div class="row">
-                          <span t-field="o.name"/>
+                          <span t-field="o.id"/>
                         <h3>Title</h3>
                     </div>
                  </div>
