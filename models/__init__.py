@@ -17,4 +17,4 @@
 #                                                                               #
 #################################################################################
 
-from . import automatic_workflow_job,  sale, sale_workflow_process, stock,  account_invoice,test_report
+from . import automatic_workflow_job,  sale, sale_workflow_process, stock,  account_invoice
