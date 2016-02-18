@@ -2,19 +2,20 @@
 <openerp>
     <data>
 <template id="test_report">
-<!--
+
     <t t-call="report.external_layout">
--->
+
         <div class="page">
             <div class="row">
                 <h3>Title</h3>
             </div>
         </div>
-<!--
+
     </t>
--->
+
 </template>
 
+<!--
 <template id="test_report">
     <t t-call="report.html_container">
         <t t-foreach="doc_ids" t-as="doc_id">
@@ -22,6 +23,7 @@
         </t>
     </t>
 </template>
+-->
 
 
     </data>
