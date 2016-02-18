@@ -7,9 +7,10 @@
             string="Invoice without prices"
             report_type="qweb-pdf"
             name="Fatturazione_automatica.test_report"
-            attachment_use="False"
             file="Fatturazione_automatica.test_report"
+            attachment_use="False"
         />
+<!--
 
        <record id="invoice" model="report.paperformat_invoice">
 		    <field name="name">A4 Report FATTURA</field>
@@ -29,9 +30,10 @@
 
 
 		<record id="Fatturazione_automatica.test_report" model="ir.actions.report.xml">
-		    <field name="paperformat_invoice" ref="sc_distribuzione_srl_report.paperformat_invoice" />
+		    <field name="paperformat_invoice" ref="Fatturazione_automatica.paperformat_invoice" />
 		</record>
 
+-->
 
     </data>
 </openerp>
