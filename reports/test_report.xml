@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-<template id="report_without_prices_document">
+<template id="test_report">
     <t t-call="report.external_layout">
         <div class="page">
             <div class="row">
@@ -14,7 +14,7 @@
 <template id="test_report">
     <t t-call="report.html_container">
         <t t-foreach="doc_ids" t-as="doc_id">
-            <t t-raw="translate_doc(doc_id, doc_model, 'partner_id.lang', 'account.report_without_prices_document')"/>
+            <t t-raw="translate_doc(doc_id, doc_model, 'partner_id.lang', 'account.test_report')"/>
         </t>
     </t>
 </template>
