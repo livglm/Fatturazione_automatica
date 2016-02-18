@@ -1,0 +1,9 @@
+<report
+            id="custom_report_without_prices"
+            model="account.invoice"
+            string="Invoice without prices"
+            report_type="qweb-pdf"
+            name="account.test_report"
+            attachment_use="False"
+            file="account.report_without_prices"
+        />
