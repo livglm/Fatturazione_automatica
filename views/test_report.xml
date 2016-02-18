@@ -12,7 +12,9 @@
         </div>
 
           <t t-foreach="doc_ids" t-as="doc_id">
-
+              <t t-foreach="docs" t-as="o">
+            <span t-field="o.name"/>
+              </t>
             </t>
 
     </t>
