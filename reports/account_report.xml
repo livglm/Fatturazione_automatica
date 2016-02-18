@@ -1,9 +1,0 @@
-<report
-            id="custom_report_without_prices"
-            model="account.invoice"
-            string="Invoice without prices"
-            report_type="qweb-pdf"
-            name="fatturazione_automatica.reports.test_report"
-            attachment_use="False"
-            file="fatturazione_automatica.reports.test_report"
-        />
