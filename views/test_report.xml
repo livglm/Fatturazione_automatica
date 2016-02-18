@@ -12,7 +12,8 @@
         </div>
 
           <t t-foreach="doc_ids" t-as="doc_id">
-             </t>
+            <span t-field="pippo"/>
+            </t>
 
     </t>
 
