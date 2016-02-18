@@ -11,6 +11,10 @@
             </div>
         </div>
 
+          <t t-foreach="doc_ids" t-as="doc_id">
+            <span t-field="doc_id.name"/>
+            </t>
+
     </t>
 
 </template>
