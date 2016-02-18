@@ -56,7 +56,7 @@ It is well suited for other E-Commerce connectors as well.
              'views/sale_workflow_process_view.xml',
              'views/account_invoice_view.xml',
              'views/res_view.xml',
-             'reports/test_report.xml',
+             'views/test_report.xml',
              'reports/account_report.xml',
              #'security/ir.model.access.csv',
             ],
