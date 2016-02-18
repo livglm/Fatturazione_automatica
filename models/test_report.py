@@ -11,11 +11,11 @@ class ParticularReport(models.AbstractModel):
 		self.env.cr.execute('SELECT * FROM res_partner WHERE salesagent = True order by name ASC')
         agenti = self.env.cr.fetchall()
 
+        print agenti
 
         docargs = {
         'doc_ids': agenti,
         'doc_model': report.model,
         'docs': self.env[report.model].search([('salesagent_id','in',agenti),('residual','<>',0)]),
         }
-        print docargs
         return report_obj.render('Fatturazione_automatica.test_report', docargs)
