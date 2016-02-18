@@ -15,6 +15,6 @@ class ParticularReport(models.AbstractModel):
         docargs = {
         'doc_ids': agenti,
         'doc_model': report.model,
-        'docs': self.env[report.model].search([('salesagent_id','in',ids),('residual','<>',0)]),
+        'docs': self.env[report.model].search([('salesagent_id','in',agenti),('residual','<>',0)]),
         }
         return report_obj.render('Fatturazione_automatica.test_report', docargs)
