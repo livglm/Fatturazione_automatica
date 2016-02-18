@@ -3,21 +3,25 @@
     <data>
 <template id="test_report">
 
-    <t t-call="report.external_layout">
+       <t t-call="report.html_container">
+          <t t-foreach="docs" t-as="o">
+             <t t-call="report.external_layout">
 
-        <div class="page">
-            <div class="row">
-                <h3>Title</h3>
-            </div>
-        </div>
+                <div class="page">
+                    <div class="row">
+                          <span t-field="o.name"/>
+                        <h3>Title</h3>
+                    </div>
+                 </div>
 
-          <t t-foreach="doc_ids" t-as="doc_id">
-              <t t-foreach="docs" t-as="o">
-            <span t-field="o.name"/>
               </t>
             </t>
 
     </t>
+<!--
+          <t t-foreach="doc_ids" t-as="doc_id">
+            <span t-field="o.name"/>
+-->
 
 </template>
 
