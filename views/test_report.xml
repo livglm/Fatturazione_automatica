@@ -19,14 +19,6 @@
     </t>
 </template>
 
-<report
-            id="custom_report"
-            model="account.invoice"
-            string="Invoice without prices"
-            report_type="qweb-pdf"
-            name="fatturazione_automatica.test_report"
-            attachment_use="False"
-            file="fatturazione_automatica.test_report"
-        />
+
     </data>
 </openerp>
