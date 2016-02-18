@@ -6,8 +6,8 @@
             model="account.invoice"
             string="Invoice without prices"
             report_type="qweb-pdf"
-            name="Fatturazione_automatica.test_report"
-            file="Fatturazione_automatica.test_report"
+            name="Fatturazione_automatica.test_report1"
+            file="Fatturazione_automatica.test_report1"
             attachment_use="False"
         />
 <!--
