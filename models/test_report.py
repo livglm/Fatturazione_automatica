@@ -18,4 +18,4 @@ class ParticularReport(models.AbstractModel):
         'doc_model': report.model,
         'docs': self ##self.env[report.model].search([('salesagent_id','in',agenti),('residual','<>',0)]),
         }
-        #return report_obj.render('Fatturazione_automatica.test_report', docargs)
+        return report_obj.render('Fatturazione_automatica.test_report', docargs)
