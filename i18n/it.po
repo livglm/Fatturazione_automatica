@@ -34,7 +34,7 @@ msgid "Before Delivery"
 msgstr "Prima della consegna"
 
 #. module: Fatturazione_automatica
-#: view:stock.picking:Fatturazione_automatica.view_picking_confirm
+#: model:stock.picking:Fatturazione_automatica.view_picking_confirm
 msgid "Cancella ordine"
 msgstr "Cancella ordine"
 
