@@ -41,7 +41,7 @@ msgstr "Cancella ordine"
 #. module: Fatturazione_automatica
 #: model:ir.model,name:Fatturazione_automatica.model_stock_picking_carriage_condition
 msgid "Carriage Condition"
-msgstr "Condizioni di trasporto"
+msgstr "Condizioni di consegna"
 
 #. module: Fatturazione_automatica
 #: field:account.invoice,carrier_id:0
